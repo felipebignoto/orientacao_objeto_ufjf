@@ -13,6 +13,12 @@ public class Primeiro_projeeto {
 
     public static void main(String[] args) {
         System.out.println("  World!");
+        //chamaPilha();
+        //chamaScannerTeste();
+    }
+    
+    
+    public static void chamaPilha(){
         Pilha<Integer> pilhainteiro = new Pilha<>();
         
         System.out.println("Eh vazia: " + pilhainteiro.ehVazia());
@@ -24,6 +30,12 @@ public class Primeiro_projeeto {
         pilhainteiro.desempilha();
         pilhainteiro.desempilha();
         System.out.println("Eh vazia: " + pilhainteiro.ehVazia());
-        
     }
+
+    private static void chamaScannerTeste() {
+        ScannerTeste s = new ScannerTeste();
+        s.main();
+    }
+
+   
 }
