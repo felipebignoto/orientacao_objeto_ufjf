@@ -17,6 +17,9 @@ public class Primeiro_projeeto {
         //chamaScannerTeste();
     }
     
+    public static void chama(){
+        
+    }
     
     public static void chamaPilha(){
         Pilha<Integer> pilhainteiro = new Pilha<>();
