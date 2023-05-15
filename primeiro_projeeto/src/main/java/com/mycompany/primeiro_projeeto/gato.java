@@ -8,7 +8,11 @@ package com.mycompany.primeiro_projeeto;
  *
  * @author felip
  */
-public abstract class Animal {
+public class gato extends Animal{
+
+    @Override
+    public String fala() {
+        return "miau";
+    }
     
-    public abstract String fala();
 }

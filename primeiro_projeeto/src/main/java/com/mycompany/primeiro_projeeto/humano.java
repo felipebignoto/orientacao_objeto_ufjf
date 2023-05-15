@@ -4,13 +4,15 @@
  */
 package com.mycompany.primeiro_projeeto;
 
-/**
- *
- * @author felip
- */
+//Atalho 'alt' + 'enter'
+
+
 public class humano extends Animal{
-   
-    public void fala(){
-        System.out.println("Ola");
+
+    @Override
+    public String fala() {
+        return "oi";
     }
+   
+  
 }

@@ -9,7 +9,11 @@ package com.mycompany.primeiro_projeeto;
  * @author felip
  */
 public class Cao extends Animal {
-    public void fala(){
-        System.out.println("au au");
+
+
+    @Override
+    public String fala() {
+        return "au au";
     }
+  
 }

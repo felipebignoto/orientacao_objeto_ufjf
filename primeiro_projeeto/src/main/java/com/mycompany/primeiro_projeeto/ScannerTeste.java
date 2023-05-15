@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author felip
  */
 public class ScannerTeste {
-    public static void main() {
+    public  void main() {
         Scanner teclado = new Scanner(System.in);
         System.out.print("Entre com um número: ");
         double numero = teclado.nextDouble();
