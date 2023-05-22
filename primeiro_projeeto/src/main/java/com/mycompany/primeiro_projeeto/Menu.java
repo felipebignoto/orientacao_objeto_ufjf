@@ -17,7 +17,9 @@ public class Menu {
 
             switch (operacao) {
                 case 1:
+                    System.out.println("sss");
                     valor = leDouble();
+                    System.out.println("ddd");
                     memoria = operacoes.soma(memoria, valor);
                     break;
 
@@ -56,7 +58,7 @@ public class Menu {
 
     public static double leDouble() {
         Scanner teclado = new Scanner(System.in);
-        double valor = leDouble();
+        double valor;
         System.out.println("digite um valor real");
 
         try {
