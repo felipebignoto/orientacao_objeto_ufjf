@@ -7,15 +7,25 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- *
- * @author felip
- */
 public class Primeiro_projeeto {
     //private final int TAMANHO_MAXIMO = 9;
     public static void main(String[] args) {
         
-        List<Animal> animais = new ArrayList<>();
+       
+        
+        Menu menu = new Menu();
+        menu.main();
+        
+        ////////////Testes de outros exercicios////////////
+        //chamaPilha();
+        //chamaScannerTeste();
+       //prova1();
+       //teste();
+       //chamaAanimais(); 
+    }
+    
+    public static void chamaAanimais(){
+         List<Animal> animais = new ArrayList<>();
         animais.add(new Cao());
         animais.add(new gato());
         animais.add(new gato());
@@ -25,15 +35,6 @@ public class Primeiro_projeeto {
         for(Animal animal:animais){
             System.out.println(animal.fala());
         }
-        
-        
-        
-        ////////////Testes de outros exercicios////////////
-        //System.out.println("  World!");
-        //chamaPilha();
-        //chamaScannerTeste();
-       //prova1();
-       //teste();
     }
        
     public static void chamaPilha() {
